@@ -7,7 +7,7 @@ html {
 }
 a {
 	text-decoration: none;
-	color: #ffb932;
+	color: #a8b7e2;
 }
 
 section {
@@ -52,14 +52,30 @@ header {
 .header-right button img {
 	height: 20px;
 	width: 20px;
+	margin: auto;
 }
 
 .header-right form {
 	display: inline-block;
-	height: 30px;
 	float: right;
+	width: 100%;
 }
 
 .header-right button {
-	background-color: #707070;
+	background-color: #ddd;
+	width: 15%;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.header-right input {
+	width: 83%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	float: right;
 }
